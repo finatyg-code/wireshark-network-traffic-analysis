@@ -27,8 +27,23 @@ The purpose is to develop practical skills relevant to entry-level Security Oper
 6. Record findings with supporting screenshots.
 
 ## Analysis and Findings
-To be completed using evidence from my Wireshark investigation.
+### Investigation 1: DNS Query and Response Analysis
 
+**Tool:** Wireshark  
+**Capture:** baseline.pcapng  
+**Filter:** `dns`
+
+#### Findings
+- Requested domain: `edge.microsoft.com`
+- DNS server: `8.8.8.8`
+- Request packet: 4
+- Response packet: 5
+- DNS answer records: 4 (2 CNAME and 2 A records)
+- Resolved IP addresses: `150.171.28.11` and `150.171.27.11`
+- Response time: 16.81 milliseconds
+
+#### Security Assessment
+The DNS traffic was consistent with normal domain resolution. No malicious activity was established from this transaction alone.
 ## Screenshots
 Screenshots will be added after reviewing them for sensitive information.
 
