@@ -47,7 +47,11 @@ The DNS traffic was consistent with normal domain resolution. No malicious activ
 ## Screenshots
 ![DNS Query and Response Analysis](dns%20analysis.png.jpg)
 ## Lessons Learned
-To be completed after the investigation.
+- Learned how to capture and analyze network traffic using Wireshark.
+- Used DNS filters to identify domain name queries and responses.
+- Identified source and destination IP addresses.
+- Examined DNS records, including CNAME and A records.
+- Learned how DNS analysis supports SOC investigations and network monitoring.
 
 ## Disclaimer
 This project is for educational purposes. Network analysis is performed only on traffic I am authorized to capture and inspect.
