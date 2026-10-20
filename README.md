@@ -45,8 +45,7 @@ The purpose is to develop practical skills relevant to entry-level Security Oper
 #### Security Assessment
 The DNS traffic was consistent with normal domain resolution. No malicious activity was established from this transaction alone.
 ## Screenshots
-Screenshots will be added after reviewing them for sensitive information.
-
+![DNS Query and Response Analysis](dns%20analysis.png.jpg)
 ## Lessons Learned
 To be completed after the investigation.
 
